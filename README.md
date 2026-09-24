@@ -80,7 +80,7 @@ We intend to offer convenient optional amounts such as **$5**, **$10**, **$25+**
 
 **The payment profile and Sponsor button are not yet confirmed active.** Read the [shortfall/surplus and refund limitations](SPONSORSHIP.md) before contributing once the payment mechanism is enabled. We will not claim a fundraising progress percentage until receipts are verified.
 
-[Budget](BUDGET.md) · [Roadmap](ROADMAP.md) · [Support terms](SPONSORSHIP.md) · [Transparency](TRANSPARENCY.md) · [FAQ](FAQ.md) · [Sponsors profile draft](GITHUB_SPONSORS_PROFILE.md)
+[Budget](BUDGET.md) · [Roadmap](ROADMAP.md) · [Support terms](SPONSORSHIP.md) · [Transparency](TRANSPARENCY.md) · [FAQ](FAQ.md) · [Sponsors profile draft](GITHUB_SPONSORS_PROFILE.md) · [Briefing for NEXO](AGENT_ONBOARDING.md)
 
 ### Кратко по-русски
 
