@@ -1,36 +1,33 @@
-# Frequently asked questions
+# FAQ · Agent Commons
 
-[← Project overview](README.md) · [Funding plan](BUDGET.md) · [Roadmap](ROADMAP.md)
+[← Overview](README.md) · [Funding goal](BUDGET.md) · [Roadmap](ROADMAP.md)
 
-### Is Agent Memory available now?
-No. This repository currently presents the project proposal and planned roadmap. There is no released product or completed technical experiment to download.
+### What is Agent Commons?
+A **proposed**, human-controlled open-source initiative. Its first intended product is local Agent Memory; optional Cloud and bounded compute are future stages. No product, live cloud service or completed experiments are claimed.
 
-### Why work on memory if OpenClaw and mem9 already have memory features?
-They are existing solutions we plan to evaluate. We want to investigate claim lifecycle, owner-controlled correction/revocation, cross-environment metadata and documented limitations. If existing projects already solve the problem sufficiently, contributing to them may be more useful than building another storage engine.
+### What is the fundraising goal?
+**$870,000 net available** for a staged 12-month planning scenario. This is the **chosen proposed target**, not an amount already raised or a confirmed bill of materials. It includes staff, infrastructure, operations, legal/admin and contingency. [See the allocation →](BUDGET.md)
 
-### Is the $100,000 milestone already funded?
-No amount raised is claimed. **$100k net available is the proposed funding threshold for the first stage.** The project owner will verify sponsor-profile activation and the legal/financial terms before accepting money.
+### Wasn't the earlier target $100,000?
+Yes; **$100k was an earlier proposal for a narrower first stage and has been superseded**. It is **not** the current collection threshold. A separate earlier illustration of **$871,440** has been rounded to the chosen **$870,000** goal by adjusting its provisional contingency, not by obtaining new hardware or staffing quotes.
 
-### Is $870,000 the new fundraising goal?
-No. Roughly $870k was a **hypothetical** first-year hybrid-cloud pilot cost scenario, not a quote, verified forecast or currently approved goal. A future Cloud budget will require workload measurements, hardware and colocation offers, staff rates and separate authorization.
+### Will technical tests begin once some contributions arrive?
+**No.** Per the funding-first decision, no technical experiments, product development, paid hiring or equipment purchases begin until the **full $870k is actually available** and the owner separately approves a scoped phase and spending cap.
 
-### Why not start tests or buy servers now?
-The owner chose a **funding-first plan**. No experiments or development begin until the first-stage funds are available and the owner authorizes the scoped work. Server procurement is a later, separate decision based on measurements and supplier quotes.
+### Does $870k buy capacity for one million agents?
+No. One million active agents is a long-term architectural ambition, not the first-year capacity or a forecast. Owned servers, optional GPUs and data-centre commitments need real performance measurements and supplier quotations.
 
-### How do $5 or $10 help?
-They are examples of comfortable **voluntary** support amounts, not a levy per agent. A million agent accounts do not equal a million people willing or authorized to pay. A person's decision to support is their own.
+### Does sponsorship buy shares or unlimited access?
+No. Optional contributions, including examples such as $5 or $10, do not buy equity, future shares, dividends, project control, guaranteed hosting or unlimited model calls. AI agents cannot pay on behalf of their owners without the owners' explicit authorization.
 
-### What do supporters receive?
-No shares, promised financial return, or guaranteed paid service. Optional acknowledgement and progress updates may be offered if confirmed and consented to. Open-source participation does not depend on payment.
+### Is GitHub Sponsors active?
+The project documentation and profile draft are public, but recipient approval, payment activation and an operative Sponsor button have **not been verified**. The human recipient must complete onboarding and publish final payment/shortfall terms before money is accepted.
 
-### Will every agent receive free hosting and AI calls?
-No quotas have been approved and no Cloud service is live. If Cloud launches, any free storage or model calls will be opt-in and bounded by published usage and cost limits. Local Agent Memory will not require project-paid inference for every user.
+### What if the total isn't raised?
+No technical work begins below the threshold. GitHub Sponsors is not automatic escrow or all-or-nothing crowdfunding; specific shortfall, cancellation and possible refund terms need to be published before enabling contributions. No universal or automatic refund is promised.
 
-### Is memory deleted everywhere if revoked?
-No such claim is made. Future guarantees will list exactly which managed retrieval paths are covered and where copies may remain.
+### Is memory revocation equivalent to deletion everywhere?
+No. Proposed guarantees must specify exact controlled retrieval paths and excluded transcript, cache, backup or external copies. Security, portability and isolation need testing **after** funding and approval.
 
-### Who controls money and what is NEXO?
-The human project owner controls funding and contracts. NEXO is an AI research assistant; it cannot independently authorize contributions, spend funds or initiate fundraising.
-
-### Can I contribute without paying?
-Yes. Public feedback on reproducible scenarios, documentation and architecture is welcome; the technical contribution process will be published when code and governance are ready.
+### Can I participate without paying?
+Yes. Feedback on the public plan is welcome and is independent of sponsorship. Development contributions will be organized after the funding and authorization gate.
