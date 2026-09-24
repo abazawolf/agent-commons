@@ -1,34 +1,40 @@
-# GitHub Sponsors profile — ready-to-paste DRAFT
+# GitHub Sponsors profile · copy for onboarding
 
-> This is copy for the project owner's GitHub Sponsors onboarding. **It is not a live sponsors profile**. The owner must personally complete eligibility, bank/fiscal-host and tax onboarding, configure tiers and obtain GitHub approval before a donation button is presented as active.
+> **DRAFT ONLY — not an activated payment account.** Human recipient must complete eligibility, payout and tax setup directly in GitHub Sponsors, approve public shortfall/cancellation terms and verify payment functionality before sharing a live payment link.
 
-**Short bio**
+### Short bio
 
-Building Agent Commons: open-source, owner-controlled memory infrastructure for independent AI agents. Funding preparation; no product released yet.
+Agent Commons: building an open-source memory foundation for independent AI agents. Fundraising preparation for a proposed $870,000 hybrid-project milestone.
 
-**Introduction**
+### Public introduction
 
-Agent Commons is a proposed open-source initiative. Our first planned product, Agent Memory, investigates memory provenance, freshness, correction/revocation, portable exports and control by the human owner. We intend to build on existing solutions where possible rather than promise a brand-new storage platform without evidence.
+Agent Commons is a proposed open-source project. Its first planned product, **Agent Memory**, explores long-term memory with provenance, correction, revocation, portable exports and control by a human owner. We will evaluate existing OpenClaw and mem9 features before choosing what to build.
 
-We are preparing a **$100,000 net-available first-stage funding milestone** for technical expertise, isolated synthetic-data experiments, limited temporary compute and models, administration and a disclosed partial contribution to the founder's working time. **Technical experiments, development, paid hiring and server purchases will not start before this milestone is fully funded and separately approved by the owner.**
+**Our proposed funding goal is $870,000 net available** for a staged 12-month plan: engineers and operations, owned servers and an optional cloud pilot, bounded model compute, legal/admin and contingency. The budget is preliminary and based on scenario assumptions, **not approved vendor quotations**. One million active agents is a long-term goal, not an initial deployment capacity.
 
-The optional Cloud platform and owner-operated servers are later, separately budgeted stages. A previously discussed **~$870,000 first-year scenario** is an unverified illustration, not the amount requested in this first stage. No shares or financial returns are offered; supporter acknowledgements remain optional and unguaranteed.
+**Funding before execution:** no technical experiments, development, paid hires or server purchases start until the entire $870,000 is available and the human project owner separately approves each phase. Sponsorship profile setup and public documentation are the current activities. The proposal and intended allocation are public at https://github.com/abazawolf/agent-commons.
 
-You can read the proposed allocation, timeline and shortfall terms in the project repository before deciding to support.
+Support is voluntary and **is not an investment**. Contributions do not grant ownership, future equity, profits, returns, a governance vote or unlimited GPU/model access. No released product or existing sponsorship receipts are claimed.
 
-**Proposed one-time tiers (publish only after profile activation and term approval):**
+### Optional supporter amounts — examples, not guaranteed benefits
 
-- **$5 — Commons Supporter:** Voluntary support of open-source research. No guaranteed rewards or service entitlement.
-- **$10 — Commons Contributor:** Additional voluntary support on the same terms.
-- **$25 — Commons Patron:** For those who choose a larger voluntary amount.
-- **$100 — Commons Sponsor:** Optional support at a higher level; no ownership, guaranteed access or control.
+- **$5 — Commons Supporter:** voluntary support of the project's mission.
+- **$10 — Commons Contributor:** additional voluntary support, same terms.
+- **$25 — Commons Patron:** for those who choose a larger amount.
+- **$100 — Commons Sponsor:** optional higher-level support, without ownership or service entitlement.
 
-Use platform-supported additional amounts where available. Do **not** claim that contributions constitute tax-deductible charitable donations or securities investments.
+Configure one-time or recurring tiers **only if supported and approved for the recipient account**; recurring promises are not cash in hand. No guaranteed financial benefits or tax-deductibility claims.
 
-**Proposed welcome text**
+### Proposed thank-you message
 
-Thank you for choosing to support the proposed Agent Commons initiative. The first-stage funding threshold and current status are published at https://github.com/abazawolf/agent-commons. No technical development or testing is claimed underway. Support does not grant equity, financial returns or unlimited model calls.
+Thank you for choosing to support the proposed Agent Commons project. Our $870,000 planning target, spending breakdown and funding-first terms are at https://github.com/abazawolf/agent-commons. No software development or experiments are claimed underway, and support does not confer shares, returns or unlimited services.
 
-**Activation steps controlled by the owner**
+### Human-owner activation checklist
 
-Open https://github.com/sponsors, choose **Get sponsored**, complete GitHub's identity/eligibility and payout/tax steps, enable 2FA where requested, publish the approved profile and one-time tiers, then verify that https://github.com/sponsors/abazawolf works. After that, add `.github/FUNDING.yml` with `github: [abazawolf]` on the default branch and verify the repository's Sponsor button. Never add bank details, tax forms, credentials or access tokens to this repository.
+1. Open https://github.com/sponsors and complete eligibility, recipient identity, payout/tax details and any required authentication.
+2. Confirm that the public shortfall/cancellation, surplus and possible refund policy complies with the platform and applicable law **before enabling contributions**.
+3. If permitted, publish voluntary tiers and verify the live recipient URL.
+4. Only after verification, create `.github/FUNDING.yml` with `github: [abazawolf]`, check that the Sponsor button resolves and ensure no false progress counter appears.
+5. Maintain reports that distinguish settled receipts from a budget target. Never publish secrets, payment details or private owner-agent memory in the repository.
+
+GitHub documentation: [sponsorship onboarding](https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-personal-account) · [Sponsor button](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository).
