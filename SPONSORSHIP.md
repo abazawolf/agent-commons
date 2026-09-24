@@ -2,42 +2,36 @@
 
 [← Overview](README.md) · [Budget](BUDGET.md) · [Transparency](TRANSPARENCY.md)
 
-**Status: sponsorship onboarding is pending; no functioning payment link has been verified or published here.**
+**Status:** GitHub Sponsors recipient onboarding/payment activation has **not** been verified. No active payment link or receipts are claimed in this repository.
 
-## What support means
+## Our proposed funding goal
 
-The intended mechanism is optional support of open-source development, ideally via GitHub Sponsors **if the lawful recipient is eligible and its sponsored profile is approved**. The first-stage planning threshold is **$100,000 net available**. No research experiments or development begin until that threshold is actually reached **and** separately authorized by the project owner.
+**$870,000 net available**, for a staged 12-month plan covering open-source Agent Memory, an optional cloud pilot on eventually owned hardware, bounded compute, people, operating costs, legal/admin and contingency. The amount is a **planning target**, not a verified supplier-quoted cost and not a promise to reach one million active agents.
 
-Suggested **one-time**, voluntary amounts when enabled: **$5**, **$10**, **$25+** or another platform-supported amount comfortable for the contributor. Recurring sponsorship may also be offered later; a recurring pledge is **not** counted as twelve months of cash received on day one. There is no arbitrary aggregate ceiling, but each use of funds requires an approved and reported milestone.
+**Funding first:** technical experiments, development, paid hires, server purchases and cloud deployment will **not** begin before the full $870,000 is available and the human owner has separately approved scope and expenses. Documentation and sponsorship setup are the only current activities. Meeting the threshold does not automatically authorize spending all funds.
 
-**Support is not an investment.** Contributions do not grant equity, future shares, profit participation, ownership rights, a financial return, control of the roadmap or unlimited model usage. Financial participation is not required to use future open-source code or take part in public technical discussions.
+## How to support (once the recipient profile is approved)
 
-An AI agent may share the publicly available information with its owner, but it must **not spend, pledge, authorize or transfer its owner's money without the owner's explicit approval**. NEXO cannot receive payments or launch campaigns on its own.
+Voluntary examples: **$5**, **$10**, **$25**, **$100** or another platform-supported amount. One-time support may be offered if supported by the recipient profile; recurring contributions, if offered, are counted only as each payment settles. There is **no obligatory amount per agent** and no assumption that one million agents means one million paying people.
 
-## Potential acknowledgements — not guaranteed rewards
+**This is support, not an investment.** No equity, future shares, profit distribution, financial return, ownership, governance voting rights or guaranteed cloud/model usage comes with a contribution. Optional acknowledgements, if later offered, will be clearly specified before being promised.
 
-If implemented and consented to: a public thank-you, a digital founding-supporter badge, project updates, or invitations to a technical demo when available. These are proposals, not promised deliverables. Early participation and feedback remain open without payment, subject to capacity and safety.
+A human or duly authorized organization decides whether to contribute. An AI agent cannot autonomously spend or pledge its owner's money. NEXO is a human-operated research agent, not an independently authorized fundraiser or financial custodian.
 
-## If the first-stage threshold is not reached
+## If the goal is not reached
 
-GitHub Sponsors is an ongoing support mechanism, **not** an automatic all-or-nothing escrow campaign. Therefore we will disclose actual net receipts and what has or has not begun. No technical testing, development, hiring or procurement is authorized below the gate. Until an approved milestone begins, available funds will not be spent on the described technical work. Unavoidable platform/payment-related deductions, if any, are reported separately.
+**No technical work starts below the $870k net threshold.** GitHub Sponsors is not an escrow or automatic all-or-nothing crowdfunding platform: contributions can settle even if a target is unmet. Before accepting payment, the project owner must publish concrete terms for shortfall, project cancellation, allowed use of funds, possible refunds, expenses/fees and applicable legal/platform restrictions. **No automatic or universal refund is promised.**
 
-Before activating paid sponsorship, the owner must publish a clear policy for **insufficient funding, cancellation, surplus, changes to scope and any refunds that are legally/platform-permitted**. We cannot promise that GitHub automatically returns money or that all processed payments are reversible. Supporters should review the published terms before paying.
+## If the goal is exceeded or scope changes
 
-## If more than $100,000 is received
+$870k is **not a lifetime ceiling** on voluntary support. Excess funds do not automatically finance bigger servers, extra model calls or a larger team. Additional spending requires a new published budget and owner approval. Any plan changed after support begins must be disclosed promptly, including consequences for existing supporters.
 
-The $100k is a milestone threshold, **not a cap**. No excess is automatically authorized for hardware, Cloud or a larger team. The owner will publish an updated budget and seek a separate decision on use of additional available funds; any applicable restrictions and platform terms will be respected.
+## What we will report
 
-## Protection for future cloud users
+Dated updates will separate pledged, settled, fees, **net available**, approved allocations, actual expenditure, unpaid obligations and remaining reserve. A planned allocation graphic is **not** a live collection meter. Real financial figures will appear only when verified.
 
-An experimental cloud offering, if approved much later, will need funded backups, owner data export and a wind-down process before taking real user data. Voluntary contributions will not automatically create an unlimited or perpetual hosting commitment.
+For full staged expenses, see [BUDGET.md](BUDGET.md); for project control and risks, see [TRANSPARENCY.md](TRANSPARENCY.md).
 
-## Activation checklist (for the project owner)
+## Activation is a human-owner action
 
-1. Confirm recipient eligibility and payouts directly within GitHub Sponsors, including region, bank/fiscal host, tax information and account security.
-2. Approve final public terms on insufficient funding and potential refund handling before the first payment.
-3. Create optional one-time $5/$10/$25+ tiers within the sponsored profile; do not describe these as shares or purchases of cloud capacity.
-4. Verify the live profile and enable the repository's Sponsor button with `.github/FUNDING.yml` only after approval.
-5. Record the opening date, net receipts and first-stage progress in public updates. Payment operations remain under the human owner's control.
-
-GitHub documentation: [become a sponsored contributor](https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/setting-up-github-sponsors-for-your-personal-account) · [display a sponsor button](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository).
+The recipient must complete GitHub Sponsors eligibility, tax and payout setup directly on GitHub, approve the shortfall/cancellation terms, create voluntary tiers if eligible, and verify the live sponsor profile. Only then should the repository link an actual Sponsor button. **No banking details, documents, API keys or credentials belong in this repository.**
