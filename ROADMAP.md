@@ -1,39 +1,30 @@
 # Roadmap · Agent Commons
 
-[← Overview](README.md) · [Budget](BUDGET.md) · [Transparency](TRANSPARENCY.md)
+[← Overview](README.md) · [Budget](BUDGET.md) · [Support](SPONSORSHIP.md)
 
-> **Planning document, not a delivery promise.** No product code, technical experiments, paid recruitment or server purchases have begun. Dates, capacities and features are conditional on financing, technical evidence, owner authorization and safety review.
+> **Funding first.** $870,000 net available is the chosen **proposed** funding target for a 12-month, staged plan. No technical experiments, software development, paid hiring or server purchases begin before this threshold is met and the project owner separately authorizes the relevant scope and expense. Stages below are conditional plans, not promised launch dates.
 
-## Funding-first sequence
+```mermaid
+flowchart TD
+    A["NOW · Public project and sponsorship preparation"] --> B["Funding threshold · $870,000 net available"]
+    B --> C["Human owner approves phase budget and scope"]
+    C --> D["Synthetic-data feasibility and isolated testing"]
+    D --> E["Local Agent Memory · open-source MVP"]
+    E --> F["Optional cloud pilot · backup, owner isolation, measured usage"]
+    F --> G["Owned servers at data centre · separate procurement approval"]
+    G --> H["Review demand, cost and further scaling"]
+```
 
-| Gate | Deliverable / evidence | Funding and authorization |
+| Phase | Intended result | Decision boundary |
 |:--|:--|:--|
-| **0 — Public preparation · NOW** | Explain the proposal, publish the roadmap, funding allocation, risk limits and sponsorship terms. | Documentation only; no experiments, hiring, procurement or deployment. |
-| **1 — First milestone available** | **$100,000 net available** for the proposed research/first-stage envelope; publish the final line-item plan. | When funds become available, the owner separately authorizes expenses and a scoped work plan. No automatic launch. |
-| **2 — Technical feasibility** | Isolated synthetic-data checks of memory search, revision, revocation, compaction, portability and separate-owner access; report pass/fail/unsupported and coverage limits. | Funded from approved first-stage allocations only, after Gate 1. |
-| **3 — Local Agent Memory MVP** | Architecture chosen based on evidence; open code, tests, installation docs and known limitations. | A **separate** development budget and authorization if not fully covered by the approved first-stage plan. |
-| **4 — Cloud pilot** | Optional hosted memory, opt-in data transfer, owner authorization, measured backups/restore, tenant isolation, limited compute. | Separate specification, quotes, operational reserve and authorization. Do not promise an active service before deployment. |
-| **5 — Own hardware and growth** | Buy appropriately sized servers, host at a data centre, measure demand and operating cost; expand only at reviewed capacity gates. | Hardware CAPEX and recurring OPEX must each have approved budgets. |
+| **0 · Present: funding preparation** | README, roadmap, honest cost allocation, support terms and sponsorship onboarding | Documentation and financial setup only; no technical project execution. |
+| **1 · Threshold reached** | Confirm **$870,000 net available** and publish revised actual receipts and supplier assumptions | The owner must **separately** approve scope, caps and releases of funds; reaching the target alone authorizes no purchase. |
+| **2 · Technical feasibility** | Evaluate existing OpenClaw/mem9 functionality with synthetic records in an isolated environment; log pass/fail/unsupported and boundaries | Experiments begin **only after** phase 1 and specific approval. |
+| **3 · Local Agent Memory** | Decide whether an extension/upstream contribution is sufficient; develop and publish code, tests, docs and limitations if justified | Reassess workload and product plan after phase 2. |
+| **4 · Cloud pilot** | Build optional owner-authorized cloud memory with actual tenant permissions, export/restore and measured resource requirements | Approval of privacy, recovery plan, operating cash reserve and user-facing terms required before hosting real data. |
+| **5 · Owned infrastructure** | Size CPU/GPU/storage/network, obtain supplier and data-centre quotations, purchase only justified capacity and verify operations | Separate CAPEX/colocation sign-off; an aspirational scale is not procurement justification. |
+| **6 · Growth review** | Measure active-user cost and decide whether to expand cloud capacity | Scaling toward one million agents is **long-term, not a promised year-one outcome**. |
 
-### What the first milestone is intended to finance
+The **$870k** is a full proposed annual allocation across these phases, not a claim that every line must be spent. Phase execution, rates, hardware configuration and cloud service levels may change after testing. Actual spend is reported by phase and category; unspent reserve and excess contributions are not silently allocated.
 
-It is a **research and feasibility milestone**: paid specialists, founder's disclosed partial time, controlled temporary test infrastructure, capped model calls, administrative work and contingency. It does **not** purchase a million-agent data centre or guarantee completion of the full platform. [Line-item plan →](BUDGET.md)
-
-### Proposed technical acceptance questions (after funding and approval)
-
-- What can OpenClaw and mem9 already do, and what functionality is missing?
-- Can a managed recalled claim be corrected or revoked without appearing as current in **specified** retrieval paths?
-- Which derivatives, prompt paths, transcripts and backups remain outside those guarantees?
-- Can supported metadata and revoked status survive a portable export/import?
-- Can two test owners be separated by **actual authorization boundaries** rather than labels alone?
-- What are measured storage, CPU, memory, GPU, network and model-API costs for a bounded pilot?
-
-A result marked `unsupported` does not count as success. A short experiment is not proof of universal reliability, deletion, security or performance at one million active agents.
-
-### Longer-term scale
-
-A target of **up to 1,000,000 active agents** is an **architectural aspiration, not a first-year user forecast**. The initial pilot may use a synthetic workload corresponding to up to 1,000 monthly active agents, but actual onboarding and free cloud quotas require future approvals. The physical design and data-centre commitments follow measured demand, not the aspirational number.
-
-### Work deliberately not started
-
-No software experiments; no test VMs; no hosted user data; no paid model benchmarks; no paid contractors; no servers/GPU purchases; no colocation lease. Preparing this public repository and a sponsorship profile does not authorize any of those actions.
+For a breakdown of annual **CAPEX, OPEX, people and contingency**, see [BUDGET.md](BUDGET.md). Support without payment will remain possible through feedback on the public proposal; technical contributions are organized after funding and approved execution.
