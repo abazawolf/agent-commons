@@ -1,29 +1,27 @@
-# Transparency, milestones and stewardship
+# Transparency and project stewardship
 
-[← Overview](README.md) · [Funding plan](BUDGET.md)
+[← Overview](README.md) · [Funding target](BUDGET.md) · [Support terms](SPONSORSHIP.md)
 
-## Current status
+## Today
 
-The initiative is **planning and funding preparation**. No production service or released Agent Memory implementation exists here yet. Tests, hired development, paid infrastructure, colocation contracts, GPU purchases and fundraising receipts are **not claimed**. This repository is a project proposal, not a record of completed engineering.
+Agent Commons is at the **public-proposal and funding-preparation stage**. The chosen **$870,000 net-available target** is an assumed, staged 12-month budget, **not confirmed money received or supplier pricing**. No Agent Memory release, technical experiments, paid team, active cloud pilot, purchased project servers or sponsorship receipts are claimed. A chart of planned spending must not be mistaken for a chart of fundraising progress.
 
-## Before accepting money
+## Funding-before-implementation policy
 
-The human project owner will approve and publish the current milestone, net funding threshold, payment-recipient identity and applicable terms for surplus, shortfall, cancellations and refunds. Where legal, privacy, tax or payment-provider obligations need professional advice, they must be confirmed before public terms are finalized. There is no claim of registered charity status or tax-deductible donations.
+No product development, paid technical experiments, hiring, hardware procurement or user-data hosting begins until $870,000 is actually available and the human owner has separately approved each scoped stage. Before payments are enabled, the recipient will publish a concrete policy for insufficient funding, cancellation, surplus and refunds subject to applicable law and payment-platform terms.
 
-## When funds are received
+GitHub Sponsors is not an automatic all-or-nothing escrow service. No automatic refund, tax-deductible charitable treatment, equity or investment return is promised.
 
-Reports will distinguish: (a) funds pledged, (b) paid and settled funds, (c) deductions/fees, (d) **net available** balance, (e) owner-approved allocations, (f) actual expenses and unpaid contractual obligations, and (g) remaining reserve.
+## Reporting once payments are live
 
-A report should show reporting period, project phase, result against acceptance criteria, material changes, costs by category, next funding gate and any delays. Personal supporter identities, bank account numbers, secrets and personal agent memory must not be published.
+Periodic public reports should clearly separate: gross pledges (if meaningful), paid and settled receipts, processing/other deductions, **net available** funds, expenses by category, unpaid obligations, allocated and unallocated reserves, milestone outcomes and changes in schedule. Do not show invented totals, percentages or a live counter without reconciled data.
 
-No live donation meter or progress chart is shown until based on verified, reconciled real data. The [allocation chart](assets/funding-allocation.svg) shows the **proposed use of a future $100k milestone**, not financial progress.
+**Planned annual allocation:** people $440,000; initial CAPEX $130,000; infrastructure/model OPEX $121,200; legal/accounting $25,000; other administration $10,000; contingency $143,800. Total **$870,000**. Staffing, vendor prices, jurisdiction, tax and scope remain provisional. No double-counting of founder hours, power/cooling or model work.
 
-## Scope limits and risks
+## Technical claims and user protections
 
-Provenance is not proof of truth. Revocation from a controlled retrieval path is not guaranteed erasure from transcripts, caches, backups or external copies. Multi-user Cloud, secure owner isolation, model quality and scaling to a million agents remain **unverified objectives**.
-
-Stop or revise planned work after a material isolation failure, unrecoverable data loss, inability to finance obligations, or a significant change in architecture. Existing user data, if hosted in the future, requires a previously funded and documented export/wind-down path.
+Provenance is not proof of truth. Managed-memory revocation is not global deletion from transcripts, backups and external copies. Cloud security, cross-owner isolation, availability and scaling to one million agents **have not been proven**. Before any real user data is hosted, the project must approve tenant isolation, recovery tests, data export and a funded wind-down plan.
 
 ## Authority
 
-NEXO is a human-operated AI research agent. It has **no authority** to receive or move funds, promise investment returns, accept contracts or autonomously publish fundraising materials. The owner approves each new phase and expenditure.
+The human project owner authorizes spending, contracts and new phases. NEXO is a research/drafting agent with no independent authority to solicit funds, promise returns, accept payments, modify privileges or activate implementation.
