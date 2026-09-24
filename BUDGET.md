@@ -1,76 +1,64 @@
-# Funding plan and cost architecture
+# Financial plan · **$870,000 target**
 
-[← Overview](README.md) · [Roadmap](ROADMAP.md) · [How support works](SPONSORSHIP.md)
+[← Overview](README.md) · [Roadmap](ROADMAP.md) · [Support terms](SPONSORSHIP.md)
 
-> **All amounts are USD planning figures, not current cash on hand, money raised, signed quotes, tax advice or binding delivery guarantees.** The founder has chosen a voluntary-support model without equity or mandatory rewards. Contributions are made by people or duly authorized organizations, not autonomously by their agents.
+> **Chosen funding target: $870,000 net available for a proposed staged 12-month hybrid-project plan.** This is a planning envelope, **not verified vendor quotes or an independently established requirement**. No funds raised, account balance or completed technical work are claimed. We will publish any material correction before committing expenditures.
 
-## 01 / Proposed first-stage threshold — **$100,000 net available**
+## 1. Public allocation of the $870,000 target
 
-This is the **proposed initial milestone**, to be reached **before technical tests, development, paid recruitment or hardware procurement begin**. It is not the full-year cloud budget. The intended use below is provisional pending expert rates, jurisdiction, actual service prices and a final authorized work plan.
+<img src="assets/funding-allocation.svg" width="100%" alt="Planned budget of $870,000; not raised funds." />
 
-| Proposed category | USD | Share | What it covers |
-|:--|--:|--:|:--|
-| External technical specialists | **$60,000** | 60% | Architecture, engineering, security/QA, review and documentation for the *approved first-stage scope*. |
-| Disclosed partial founder compensation | **$8,000** | 8% | Recorded, approved hours of planning, coordination, engineering and acceptance; never double-counted against an external role. |
-| Isolated test infrastructure / temporary compute | **$8,000** | 8% | Short-term synthetic-data environments, measurement and temporary capacity **after funding**. |
-| Model calls and measurement tools | **$3,000** | 3% | Capped API tokens, embeddings/tools and model tests **after funding**; not unlimited public inference. |
-| Legal, accounting and administration | **$7,000** | 7% | Necessary project/payment setup and reporting; actual treatment depends on recipient jurisdiction. |
-| Contingency | **$14,000** | 14% | Owner-approved overruns and risks; unused reserves remain recorded, not silently spent. |
-| **Total** | **$100,000** | **100%** | Preliminary first-stage allocation; publication does not authorize expenditure. |
+| Category | USD | What it is intended to cover |
+|:--|--:|:--|
+| **People — development and operations** | **$440,000** | Four illustrative technical roles ($96k/year each), disclosed founder time ($36k/year), external security expertise ($20k). This is an *annual staffing scenario*, not signed contracts. |
+| **CAPEX — owned equipment and setup** | **$130,000** | Two app/API nodes ($16k), two storage nodes ($24k), optional GPU server ($60k), network ($10k), spares ($10k), delivery/setup ($10k). Items and prices are **provisional**, not quotes or automatic purchase approvals. |
+| **OPEX — 12-month infrastructure and models** | **$121,200** | Colocation including power/cooling ($48k), network ($9.6k), maintenance ($12k), external backup ($7.2k), monitoring/security/tools ($14.4k), capped external model/API provision ($30k). |
+| **Legal and accounting** | **$25,000** | Recipient/payment/legal structure and financial compliance as applicable; jurisdiction undecided. |
+| **Other administration** | **$10,000** | Nonduplicated reporting and organizational costs. |
+| **Contingency** | **$143,800** | Retained for approved overruns and unforeseen expenses, not an automatic spending allowance. |
+| **TOTAL PLANNED FUNDING** | **$870,000** | All amounts in USD; target is **net funds actually available**, after relevant payout deductions and set-asides. |
 
-![Proposed first-stage allocation](assets/funding-allocation.svg)
+The previous model totaled **$871,440** with a **$145,240** 20%-of-subtotal reserve. The revised **$870,000** funding target preserves the same illustrative **$726,200 subtotal**, with a **$143,800** contingency to match the selected round target. This is a budgeting choice **not evidence that actual needs are $1,440 lower**.
 
-**Net available** means funds actually settled and available to the lawful recipient **after** applicable payout deductions and any required set-asides. Gross platform sponsorship totals can differ. No balance, percentage-raised meter or committed supporter count will be displayed without verified data.
+### Distinguish development, hardware and operations
 
-### Funding gate and spending rule
+- **Development:** local Agent Memory research and software, cloud architecture/build, testing and documentation. Engineering hours in the people line must be allocated to phases without counting them twice.
+- **Hardware CAPEX:** equipment **only after** approved benchmark, bill of materials and supplier comparison. An optional GPU is not a promise to acquire it.
+- **Ongoing OPEX:** colocation, electricity/cooling, network, repairs, backup, tools and limited external API. Operating staff **are in the people line, not duplicated in OPEX**.
 
-Until this threshold is reached and a separate owner decision approves scope and spending: **no experiments, coding, specialist hiring, GPU/server purchase or Cloud pilot**. Repo documentation and sponsorship setup may proceed. Once reached, the threshold is **not** an automatic obligation to purchase any particular item; funds are released in approved sub-stages with documented results.
+### Illustrative OPEX detail (USD/year)
 
-If funds are insufficient or the project changes direction, the team will publish an update and the allowed options under the actual platform terms and applicable obligations. **GitHub Sponsors is not an escrow or all-or-nothing crowdfunding mechanism; no automatic refund is promised.** See [support terms and contingencies](SPONSORSHIP.md).
-
-## 02 / Hypothetical full-year cloud-pilot scenario — **~$870,000**
-
-We previously discussed a **$871,440 illustrative 12-month scenario**, often rounded to **$870,000**, for an early hybrid platform with purchased hardware, team and operating expenses. It is **not** a confirmed requirement, an approved funding goal, or a budget for one million agents.
-
-| Scenario category | USD |
+| Service | Annual assumption |
 |:--|--:|
-| Initial equipment and setup · CAPEX | $130,000 |
-| Infrastructure + bounded model services · annual OPEX excluding people | $121,200 |
-| Engineering/operations team incl. partial founder compensation and external security work | $440,000 |
-| Legal and accounting services | $25,000 |
-| Other administration | $10,000 |
-| **Subtotal** | **$726,200** |
-| Hypothetical uncertainty reserve (20% of subtotal) | $145,240 |
-| **Illustrative total** | **$871,440** |
+| Data-centre colocation **including** power and cooling | $48,000 |
+| Network and traffic | $9,600 |
+| Hardware repair and maintenance | $12,000 |
+| Remote encrypted backup / storage | $7,200 |
+| Monitoring, security tooling and software | $14,400 |
+| Capped external model/API provision | $30,000 |
+| **OPEX subtotal, excluding people** | **$121,200** |
 
-This scenario depends on **assumed**, unquoted hardware, staff and colocation prices and a particular staffing plan. Taxes, eligibility, real fees, service-level commitments, location, data-security requirements and user demand remain unknown. **Do not add $100,000 and $871,440 mechanically**: the first-stage work may overlap with the annual scenario. A reconciled staged plan will distinguish previously financed costs before publishing any later goal.
+Do **not** add electricity or cooling a second time when already priced in colocation. Internal model calls, experiments and potential future free user calls must share or be reconciled against the capped model line and approved sub-budgets; no unlimited inference is promised. Real tariffs and workloads must be measured after the funding gate and owner approval.
 
-### Capital cost versus ongoing cost
+## 2. Financial gating — no technical work before funding
 
-```mermaid
-flowchart TD
-  T["Measured pilot requirements"] --> C["CAPEX · owned CPU/GPU/storage/network, installation"]
-  T --> O["OPEX · colo, power, cooling, network, backup, maintenance"]
-  T --> P["People · development vs operations; no duplicate hours"]
-  T --> M["Model calls · project R&D vs optional user quota"]
-  C --> G["Owner approval + quotes before procurement"]
-  O --> G
-  P --> G
-  M --> G
-```
+1. **Now:** publish the proposal, build the GitHub project presence, complete recipient eligibility and approve supporter terms. No paid engineering, tests, cloud test VMs, developer hiring, servers or user data hosted.
+2. **Before work:** verify **$870,000 actually available net** and obtain a separate approval from the human project owner for a staged budget, test isolation, permissions and spending limits.
+3. **After approval:** fund isolated synthetic-data research first, then decide whether to build the local MVP and cloud pilot. Cloud procurement, deployment, free quotas and expansion require later explicit decisions and updated quotations.
+4. **If costs or goals change:** publish a revised budget, explain which items overlap, report committed versus remaining funds and obtain approval before reallocating reserves.
 
-**Power and cooling:** a data-centre quote may bundle both with space and reserved power. Model metered electricity separately **only when separately billed**; don't charge the same cooling or electricity twice. **Own GPU versus external API:** benchmark an actual model, context length, latency and concurrency, then compare full costs for equivalent service. A proposed local open-source memory user does not automatically consume Agent Commons Cloud resources.
+**Funding target does not mean $870k is immediately spent.** The owner authorizes releases by phase. Unused capital remains separately reported. The recipient will not treat future subscription pledges as cash received.
 
-## 03 / Scenarios, not promised free quotas
+## 3. Scope and uncertainty
 
-| Potential scale | Role in planning | What must be measured before a quote |
-|:--|:--|:--|
-| Up to 1,000 active agents | Initial pilot scenario | Memory per user, actual operations, p95 latency, isolation, backup/restore, inference use. |
-| Up to 10,000 active agents | Later expansion | Peak throughput, data retention, availability requirements, unit costs and financial runway. |
-| Up to 1,000,000 active agents | Long-term ambition, **not first-year delivery** | Sharding, several failure domains, staff/ops capacity, user demand and model-token funding at scale. |
+The first-year scenario is a **bounded early hybrid pilot**, not a quote for serving one million agents. The scale of 1k / 10k / 1m active agents is for future engineering and financial sensitivity analysis; it is not a forecast and not the capacity of a first purchase.
 
-Free cloud storage and limited model calls are **future concepts**, not activated service tiers or entitlements. A $5 or $10 contribution does not buy unlimited inference.
+One owned GPU may be useful for specific models, but cannot be sized from aggregate token volume without measuring model/context/concurrency and latency. A data-centre contract may bundle rack, reserved power and cooling; vendor invoices, jurisdiction, taxes, security and data-retention obligations remain unknown. Supplier and staffing quotes are needed before CAPEX and OPEX commitments.
 
-## 04 / Reporting
+## 4. Shortfall, surplus and reporting
 
-Planned reporting, once money is accepted: dated receipts or aggregate reconciled receipts, cumulative net available amount, approved allocations, invoices/expenditure by category, remaining unrestricted/earmarked balance, milestone status, upcoming obligations and material risks. We will not invent progress statistics or imply publicly pledged figures are settled money. [Transparency principles →](TRANSPARENCY.md)
+**Shortfall:** under the $870k net threshold, no experiments, development, paid hiring or procurement begin. GitHub Sponsors is **not escrow / all-or-nothing crowdfunding**. Before activating payment, the recipient must approve and publish policy for cancellation, shortfall, lawful/platform-permitted refunds, alternative use of funds and fees; no automatic refund is promised.
+
+**Surplus:** $870k is a threshold, not an arbitrary lifetime donation cap. Money above the milestone does **not** automatically authorize cloud scale-up or new hires. The owner publishes a revised use-of-funds plan and reports actual receipts.
+
+**Reporting:** after payments begin, distinguish gross pledged, settled, fees, net available, committed, spent and reserved. Never call this planned allocation a live fundraising-progress chart. [Support terms →](SPONSORSHIP.md) · [Transparency →](TRANSPARENCY.md).
